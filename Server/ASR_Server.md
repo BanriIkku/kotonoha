@@ -14,27 +14,25 @@ $ sudo python setup.py install
 2. ASRサーバ起動
 
 ```
-python ASRServer.py
+$ python ASRServer.py
 ```
 
 ### Webサーバの起動
 
 1. サーバ起動方法
 ```
-python ~/Software/julius/ASRServer.py
+$ python ~/Software/julius/ASRServer.py
 ```
 
 - バックグランドで動作させたい場合
 
 ```
-sudo nohup python ~/Software/julius/ASRServer.py  &
+$ sudo nohup python ~/Software/julius/ASRServer.py  &
 ```
 
 
-2.waveデータを，サーバに対してPOST送信すればよいです。
-```
-http://サーバ先:8000/asr_julius
-```
+2. クライアントから waveデータをサーバに対してPOST送信すればよいです。
+- http://サーバ先:8000/asr_julius
 
 
 *) リンク先やポート番号は、ASRServer.py内の設定を変更すること
