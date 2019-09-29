@@ -5,6 +5,8 @@
 
 juliusを使った音声認識アプリ
 
+https://github.com/ITTENSIKAI/kotonoha
+
 ## Features
 
 1. ローカルのマイクからWavファイルを生成する。
