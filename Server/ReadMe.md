@@ -24,9 +24,6 @@
 
 ### コンパイルに必要なライブラリをインストール
 
-
-### コンパイルに必要なライブラリをインストール
-
 ### apt-getが使える場合
 ```bash
 $ apt-get install build-essential zlib1g-dev libsdl2-dev libasound2-dev
