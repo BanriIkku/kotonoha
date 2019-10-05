@@ -15,14 +15,24 @@
 - julius 4.3.1
 - dictation-kit-4.5
 
-### テストサーバー
+### Windows
+#### テストサーバー
 - Windows 10
 - ubuntu (Windows Subsystem for Linux)
+### MAC
+下記のツールをインストールすること
+- [fink](http://www.finkproject.org/download/index.php?phpLang=ja)
+- wget
+
+```
+brew install wget
+```
 
 ---
 ## インストール
 
 ### コンパイルに必要なライブラリをインストール
+※ MACでは不要
 
 ### apt-getが使える場合
 ```bash
