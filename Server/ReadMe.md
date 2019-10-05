@@ -4,9 +4,10 @@
 ## リンク先
 |リンク先の概要|URL|
 |:---:|:---|
-|公式サイト|https://julius.osdn.jp/|
-|参考にしたサイト 1|https://qiita.com/sayonari/items/65a5aea83d1fadac7d5c|
-|参考にしたサイト 2|https://julius.osdn.jp/juliusbook/ja/desc_module.html|
+| 公式サイト        | https://julius.osdn.jp 　　　　　　　　　　　　　　　　　|
+| 参考にしたサイト 1 | https://qiita.com/sayonari/items/65a5aea83d1fadac7d5c |
+| 参考にしたサイト 2 | https://julius.osdn.jp/juliusbook/ja/desc_module.html |
+| 参考にしたサイト 3 | https://qiita.com/sgr0416st/items/928fb2bde28e17eda274 |
 
 ---
 
