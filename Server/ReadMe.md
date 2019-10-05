@@ -101,7 +101,7 @@ $ wget --trust-server-names 'http://osdn.jp/frs/redir.php?m=iij&f=%2Fjulius%2F60
 $ tar xvzf dictation-kit-v4.3.1-linux.tgz
 ```
 ```
-$ wget --trust-server-names 'https://ja.osdn.net/frs/redir.php?m=ymu&f=julius%2F71011%2Fdictation-kit-4.5.zip'
+$ wget --trust-server-names 'https://ymu.dl.osdn.jp/julius/71011/dictation-kit-4.5.zip'
 $ tar xvzf dictation-kit-v4.5.zip
 ```
 
