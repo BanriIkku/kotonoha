@@ -95,19 +95,32 @@ ls -l julius
 ```
 $ mkdir -p ~/Software/julius
 $ cd ~/Software/julius
+```
+```
 $ wget --trust-server-names 'http://osdn.jp/frs/redir.php?m=iij&f=%2Fjulius%2F60416%2Fdictation-kit-v4.3.1-linux.tgz'
 $ tar xvzf dictation-kit-v4.3.1-linux.tgz
 ```
-
+```
+$ wget --trust-server-names 'https://ja.osdn.net/frs/redir.php?m=ymu&f=julius%2F71011%2Fdictation-kit-4.5.zip'
+$ tar xvzf dictation-kit-v4.5.zip
+```
 
 ---
 
 ## 動作テスト
 ### サーバの動作テスト
+
 1. juliusを起動
+- Linux(Windows)の場合
 ```
 $ ~/Software/julius/julius -C ~/Software/julius/dictation-kit-4.5/am-gmm.jconf -C ~/Software/julius/dictation-kit-4.5/main.jconf -input rawfile
 ```
+- MACの場合
+```
+cd ~/Software/julius/dictation-kit-4.5
+julius -C main.jconf -C am-gmm.jconf -nostrip
+```
+
 
 2. 解析ファイルの指定
 起動後の[enter filename->]にて
