@@ -3,5 +3,8 @@
 		{
 			"path": "."
 		}
-	]
+	],
+	"settings": {
+		"markdown-preview-enhanced.enableScriptExecution": true
+	}
 }
