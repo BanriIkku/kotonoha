@@ -7,5 +7,7 @@
 下記のコマンドで「requests」ライブラリを追加してください。
 
 ```
+python -m pip install --upgrade pip
 pip install requests
+pip install yaml
 ``` 

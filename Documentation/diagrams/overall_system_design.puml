@@ -1,0 +1,44 @@
+@startuml
+title システム構成
+
+
+actor 利用者
+
+rectangle mic as "マイク"
+rectangle display as "ディスプレイ"
+
+
+rectangle kotonoha as "kotonoha" {
+    rectangle kotonoha_input as "入力部" {
+        rectangle make_soundFile as "waveファイル生成機能"
+    }
+        file wafeFile as "音声ファイル"
+    rectangle kotonoha_output as "出力部" {
+        rectangle analysis_julius as "julius構文 解析"
+        rectangle dedicated_function as "出力加工 機能"
+    }
+}
+
+rectangle server as "サーバー" {
+    rectangle julius as "音声認識システム\njulius"
+
+    file model as "言語モデル・音響モデル"
+}
+
+
+利用者 -up-> mic
+mic -up-> make_soundFile
+make_soundFile -up-> wafeFile
+
+wafeFile -up-> julius : post wave file
+julius -down-> analysis_julius : ask JSON
+
+analysis_julius -down-> dedicated_function
+dedicated_function -down-> display
+display -down-> 利用者
+
+
+model -left-> julius
+
+@enduml
+
